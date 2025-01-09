@@ -18,7 +18,7 @@ function QuestionPage() {
 
   useEffect(() => {
     const token = searchParams.get('token');
-    const validToken = "secret";
+    const validToken = "secret2";
 
     if (!token || token !== validToken) {
       router.push('/unauthorized');
